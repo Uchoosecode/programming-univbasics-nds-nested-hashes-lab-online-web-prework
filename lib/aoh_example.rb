@@ -39,7 +39,9 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
- return assembled_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
+  local_copy_of_aoh = assembled_aoh.dup
+  local_copy_of_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
+  return local_copy_of_aoh[1][:name]
 end
