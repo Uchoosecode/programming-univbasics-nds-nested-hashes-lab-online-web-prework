@@ -18,6 +18,7 @@ def assembled_aoh
 end
 
 def literal_aoh
+  
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
 end
