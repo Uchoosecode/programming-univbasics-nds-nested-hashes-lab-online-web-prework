@@ -10,8 +10,8 @@ def assembled_aoh
   result = [DON_G,
             JOELLE_VD,
             PAT_M,
-       {:name=>"Kate Gompert", :occupation=>"None"},
-       {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
+            KATE_G,
+            RUCE_G]
   # Build an array that contains (or, "nests") the constants into a single
   # Array. Ruby constants are denoted by ALL_CAPS
   return result
