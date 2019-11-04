@@ -7,7 +7,7 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
-  result = [{:name=>"Don Gately", :occupation=>"Live-in Staff"},
+  result = [DON_G = {:name=>"Don Gately", :occupation=>"Live-in Staff"},
        {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
        {:name=>"Pat Monteseian", :occupation=>"Staff"},
        {:name=>"Kate Gompert", :occupation=>"None"},
@@ -19,11 +19,13 @@ def assembled_aoh
 end
 
 def literal_aoh
-    result = [DON_G,
+    result = [
+      DON_G,
             JOELLE_VD,
             PAT_M,
             KATE_G,
-            RUCE_G]
+            RUCE_G
+            ]
   
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
