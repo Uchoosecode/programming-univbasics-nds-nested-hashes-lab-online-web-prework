@@ -21,13 +21,9 @@ def assembled_aoh
 end
 
 def literal_aoh
-    result = [
-      DON_G,
-            JOELLE_VD,
-            PAT_M,
-            KATE_G,
-            RUCE_G
-            ]
+  result = [
+    
+    ]
   
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
