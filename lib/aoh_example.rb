@@ -43,6 +43,6 @@ def aoh_update(aoh, row, key, new_value)
   local_copy_of_aoh[1][:name] = "Joelle van Dyne (PGOAT)"
   # Update the AoH data at row and key to have the value of new_value
   # Return the updated AoH
-   result = local_copy_of_aoh 
-  return result[1][:name]
+   p result = local_copy_of_aoh 
+  p result[1][:name]
 end
